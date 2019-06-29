@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Cicerone.Controls"
+    x:Class="Cicerone.Views.BeerSearchPage"
+    Title="{Binding Title}"
+    x:Name="BrowseItemsPage"
+	Visual="Material">
+
+    <Shell.SearchHandler>
+        <controls:BeerSearchHandler x:Name="beerSearch"
+                                    Placeholder="Enter a search term"
+                                    Command="{Binding SearchCommand}"
+                                    CommandParameter="{Binding Query, Source={x:Reference beerSearch}}"/>
+    </Shell.SearchHandler>
+
+    <CollectionView
+        x:Name="ItemsListView"
+        ItemsSource="{Binding Beers}"
+        SelectionMode="Single"
+        SelectionChangedCommand="{Binding SelectBeerCommand}"
+        SelectedItem="{Binding SelectedBeer, Mode=TwoWay}"
+        EmptyView="No items to display">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout
+                    Padding="10">
+                    <Label
+                        Text="{Binding BeerName}"
+                        LineBreakMode="NoWrap"
+                        Style="{DynamicResource ListItemTextStyle}"
+                        FontSize="16" />
+                    <Label
+                        Text="{Binding BeerDescription}"
+                        LineBreakMode="NoWrap"
+                        Style="{DynamicResource ListItemDetailTextStyle}"
+                        FontSize="13" />
+                </StackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

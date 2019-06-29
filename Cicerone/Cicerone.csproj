@@ -13,5 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.540366" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
   </ItemGroup>
 </Project>
