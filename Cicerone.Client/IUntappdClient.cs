@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Cicerone.Models;
 
-namespace Cicerone.Clients
+namespace Cicerone.Client
 {
 	public interface IUntappdClient
 	{

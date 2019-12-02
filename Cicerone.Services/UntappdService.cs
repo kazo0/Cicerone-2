@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cicerone.Clients;
+using Cicerone.Client;
 using Cicerone.Models;
 
 namespace Cicerone.Services.Untappd
 {
+	public interface IUntappdService
+	{
+		Task<List<Beer>> SearchBeer(string searchTerm);
+		Task<BeerInfo> GetBeerInfo(string beerId);
+	}
+
 	public class UntappdService : IUntappdService
 	{
 		private readonly IUntappdClient _untappedClient;

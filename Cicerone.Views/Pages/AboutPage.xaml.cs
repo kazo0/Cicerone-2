@@ -3,7 +3,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Cicerone.Views
+namespace Cicerone.Views.Pages
 {
 	public partial class AboutPage : ContentPage
 	{

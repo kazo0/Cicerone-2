@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cicerone.ViewModels;
+using Cicerone.Views.ViewModels;
 using Xamarin.Forms;
 
-namespace Cicerone.Views
+namespace Cicerone.Views.Pages
 {
 	[QueryProperty("BeerId", "beerId")]
 	[QueryProperty("BeerName", "beerName")]

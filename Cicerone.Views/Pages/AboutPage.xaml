@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-			 x:Class="Cicerone.Views.AboutPage" 
-			 xmlns:vm="clr-namespace:Cicerone.ViewModels" Title="{Binding Title}"
+			 x:Class="Cicerone.Views.Pages.AboutPage" 
+			 xmlns:viewModels="clr-namespace:Cicerone.Views.ViewModels;assembly=Cicerone.Views"
+			 Title="{Binding Title}"
 			 Visual="Material">
     <ContentPage.BindingContext>
-        <vm:AboutViewModel />
+        <viewModels:AboutViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Resources>
         <ResourceDictionary>

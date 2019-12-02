@@ -8,7 +8,7 @@ using RestSharp;
 using RestSharp.Authenticators;
 using RestSharp.Serialization.Json;
 
-namespace Cicerone.Clients
+namespace Cicerone.Client
 {
 	public class UntappdClient : IUntappdClient
 	{

@@ -6,9 +6,8 @@ using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
 using Cicerone.Models;
-using Cicerone.Services;
 
-namespace Cicerone.ViewModels
+namespace Cicerone.Views.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{

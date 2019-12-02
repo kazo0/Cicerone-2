@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Cicerone.Controls
+namespace Cicerone.Views.Controls
 {
 	public class BeerSearchHandler : SearchHandler
 	{

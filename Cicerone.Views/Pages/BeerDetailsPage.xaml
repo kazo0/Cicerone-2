@@ -2,7 +2,7 @@
 <ContentPage
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="Cicerone.Views.BeerDetailsPage"
+	x:Class="Cicerone.Views.Pages.BeerDetailsPage"
 	Shell.TabBarIsVisible="false"
 	Visual="Material">
 	<StackLayout>

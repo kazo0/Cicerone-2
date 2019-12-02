@@ -1,7 +1,7 @@
 ﻿using Cicerone.Views;
 using Xamarin.Forms;
 
-namespace Cicerone
+namespace Cicerone.Views.Pages
 {
 	public partial class AppShell : Shell
 	{

@@ -9,7 +9,7 @@ using Cicerone.Models;
 using Cicerone.Services.Untappd;
 using System.Windows.Input;
 
-namespace Cicerone.ViewModels
+namespace Cicerone.Views.ViewModels
 {
 	public class BeerSearchViewModel : BaseViewModel
 	{

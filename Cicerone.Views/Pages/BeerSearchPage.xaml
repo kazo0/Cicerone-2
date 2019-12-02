@@ -2,8 +2,8 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:Cicerone.Controls"
-    x:Class="Cicerone.Views.BeerSearchPage"
+    xmlns:controls="clr-namespace:Cicerone.Views.Controls;assembly=Cicerone.Views"
+    x:Class="Cicerone.Views.PAges.BeerSearchPage"
     Title="{Binding Title}"
     x:Name="BrowseItemsPage"
 	Visual="Material">

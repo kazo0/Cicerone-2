@@ -16,7 +16,6 @@ namespace Cicerone.Droid
 
 			base.OnCreate(savedInstanceState);
 
-			Forms.SetFlags("Shell_Experimental", "Visual_Experimental", "CollectionView_Experimental", "FastRenderers_Experimental");
 			Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 			Forms.Init(this, savedInstanceState);
 			FormsMaterial.Init(this, savedInstanceState);

@@ -1,10 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Cicerone.Services;
-using Cicerone.Views;
+using Cicerone.Views.Pages;
 
-namespace Cicerone
+namespace Cicerone.Views
 {
 	public partial class App : Application
 	{
@@ -13,7 +12,6 @@ namespace Cicerone
 		{
 			InitializeComponent();
 
-			DependencyService.Register<MockDataStore>();
 			MainPage = new AppShell();
 		}
 

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Cicerone.Models;
 using Cicerone.Services.Untappd;
 
-namespace Cicerone.ViewModels
+namespace Cicerone.Views.ViewModels
 {
 	public class BeerDetailViewModel : BaseViewModel
 	{

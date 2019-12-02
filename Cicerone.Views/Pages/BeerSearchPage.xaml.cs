@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 using Cicerone.Models;
 using Cicerone.Views;
-using Cicerone.ViewModels;
+using Cicerone.Views.ViewModels;
 
-namespace Cicerone.Views
+namespace Cicerone.Views.Pages
 {
 	public partial class BeerSearchPage : ContentPage
 	{
